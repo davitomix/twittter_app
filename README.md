@@ -1,6 +1,6 @@
 # Twitter Clone App
 
-A Twitter wannabe app: Some of the core features of the platform – users, profiles, “friending”, posts, news feed, and “liking” . We’ll also implement sign-in with the real Twitter by using Devise.
+A Twitter wannabe app: Some of the core features of the platform – users, profiles, “following”, posts, and news feed. We’ll also implement sign-in with the real Twitter by using Devise.
 
 ## Built With
 
