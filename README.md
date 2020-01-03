@@ -1,24 +1,57 @@
-# README
+# Twitter Clone App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Twitter wannabe app: Some of the core features of the platform – users, profiles, “friending”, posts, news feed, and “liking” . We’ll also implement sign-in with the real Twitter by using Devise.
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby,
+- Ruby on Rails,
+- Html, CSS and JS
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To get started with the app, clone the repo and then install the needed gems:
 
-* Database creation
+```
+$ bundle install --without production
+```
 
-* Database initialization
+Next, migrate the database:
 
-* How to run the test suite
+```
+$ rails db:migrate
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Finally, run the test suite to verify that everything is working correctly:
 
-* Deployment instructions
+```
+$ rails test
+```
 
-* ...
+If the test suite passes, you'll be ready to run the app in a local server:
+
+```
+$ rails server
+```
+
+## Authors
+
+👤 **David Eli Martinez Garcia**
+
+- Github: [@davitomix](https://github.com/davitomix)
+- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
