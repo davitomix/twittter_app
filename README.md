@@ -9,6 +9,7 @@ On top of the Tweets, I use a  gem called Devise which makes creating an entire 
 - Ruby,
 - Ruby on Rails,
 - Html, CSS and JS
+- Ruby lint Rubocop.
 
 ## Getting Started
 
