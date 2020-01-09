@@ -1,12 +1,15 @@
 # Twitter Clone App
 
-A Twitter wannabe app: Some of the core features of the platform – users, profiles, “following”, posts, and news feed. We’ll also implement sign-in with the real Twitter by using Devise.
+A simple Twitter Clone App.
+The app itself will feature a basic CRUD principle where we can create, read, update, and destroy Tweets.
+On top of the Tweets, I use a  gem called Devise which makes creating an entire user role and authentication system easy. Combined with this gem we can authenticate users who want to author Tweets. A user's Tweets are then also tied to their account. The end result is a public facing site with a stream of tweets from different users. Users that have and account can login to create their own Tweets to add to the public stream.
 
 ## Built With
 
 - Ruby,
 - Ruby on Rails,
 - Html, CSS and JS
+- Ruby lint Rubocop.
 
 ## Getting Started
 
